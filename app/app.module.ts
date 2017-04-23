@@ -9,6 +9,9 @@ import { AppComponent } from './components/app.component';
 import { HeroService }         from './services/hero.service';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { ProjectsComponent } from './components/projects/projects.component';
+import { BlogsComponent }      from './components/blogs/blogs.component';
+import { VideosComponent }      from './components/videos/videos.component';
+import { ContactsComponent }      from './components/contacts/contacts.component';
 
 @NgModule({
     imports: [
@@ -20,6 +23,9 @@ import { ProjectsComponent } from './components/projects/projects.component';
     declarations: [
         AppComponent,
         ProjectsComponent,
+        BlogsComponent,
+        VideosComponent,
+        ContactsComponent,
         DashboardComponent
     ],
     providers: [

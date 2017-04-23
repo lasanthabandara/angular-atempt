@@ -2,12 +2,27 @@
 import { Routes, RouterModule } from '@angular/router';
 
 import { ProjectsComponent }      from './components/projects/projects.component';
+import { BlogsComponent }      from './components/blogs/blogs.component';
+import { VideosComponent }      from './components/videos/videos.component';
+import { ContactsComponent }      from './components/contacts/contacts.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 
 const appRoutes: Routes = [
     {
         path: 'projects',
         component: ProjectsComponent
+    },
+    {
+        path: 'blogs',
+        component: BlogsComponent
+    },
+    {
+        path: 'videos',
+        component: VideosComponent
+    },
+    {
+        path: 'contacts',
+        component: ContactsComponent
     },
     {
         path: 'dashboard',

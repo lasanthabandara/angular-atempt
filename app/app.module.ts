@@ -11,6 +11,7 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { BlogsComponent }      from './components/blogs/blogs.component';
 import { VideosComponent }      from './components/videos/videos.component';
+import { AboutComponent }      from './components/about/about.component';
 import { ContactsComponent }      from './components/contacts/contacts.component';
 
 @NgModule({
@@ -26,6 +27,7 @@ import { ContactsComponent }      from './components/contacts/contacts.component
         BlogsComponent,
         VideosComponent,
         ContactsComponent,
+        AboutComponent,
         DashboardComponent
     ],
     providers: [

@@ -6,10 +6,9 @@ import { HttpModule }    from '@angular/http';
 import { routing } from './app.routing';
 import { AppComponent } from './components/app.component';
 
-import { HeroesComponent }  from './components/heroes/heroes.component';
-import { HeroDetailComponent } from './components/hero-detail/hero-detail.component';
 import { HeroService }         from './services/hero.service';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { ProjectsComponent } from './components/projects/projects.component';
 
 @NgModule({
     imports: [
@@ -20,8 +19,7 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
     ],
     declarations: [
         AppComponent,
-        HeroesComponent,
-        HeroDetailComponent,
+        ProjectsComponent,
         DashboardComponent
     ],
     providers: [

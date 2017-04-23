@@ -6,6 +6,4 @@
     styleUrls: ['app/components/app.component.css'],
 })
 
-export class AppComponent {
-    title = 'Tour of Heroes';
-}
+export class AppComponent {}
